@@ -30,8 +30,8 @@ class String
   end
 
   def count_sentences
-    self.split(".", "?", "!")
-    self.count
+    self.split(".", "?", "!").length
+
 
   end
 end
